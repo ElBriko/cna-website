@@ -1,0 +1,71 @@
+.prueba-ribbon {
+    position: relative;
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1px 20px 5px 70px;
+    margin: 10px 10px 5px -70px;
+    color: #555;
+    background-color: #999;
+    text-shadow: 0px 1px 2px #bbb;
+    -webkit-box-shadow: 0px 2px 4px #888;
+    -moz-box-shadow: 0px 2px 4px #888;
+    box-shadow: 0px 2px 4px #888;
+}
+.prueba-ribbon:after,
+.prueba-ribbon:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 0px;
+    top: 100%;
+    border-width: 3px 10px;
+    border-style: solid;
+    border-color: #666 #666 transparent transparent;
+}
+.prueba-nivel {
+    padding-left: 50px;
+    background-color: aquamarine;
+}
+
+.prueba-nivel p {
+    font-family: lato;
+    font-weight: 400;
+    font-size: .8em;
+}
+.cursos-picker {
+    background: aquamarine;
+}
+
+.course-picker-tabs, .w-tab-pane {
+    border: 1px solid black;
+    background-color: transparent!important;
+}
+.course-picker-tabs p {
+    font-family: lato;
+    font-weight: 400;
+    font-size: .8em;
+}
+.welcome-block-statement {
+    font-family: lato;
+    font-weight: 400;
+    padding: 30px;
+}
+
+.welcome-block-statement hr {
+    width: 50px;
+}
+
+.statement-head {
+    font-size: 3em;
+    line-height: 1em;
+    margin: 0 auto;
+}
+.statement-body {
+    font-size: 20px;
+    line-height: 1em;
+    margin: 0 auto;
+
+}
+

@@ -1,0 +1,122 @@
+.barra-tlf {
+  height: 30px;
+  background-color: #2ecc71;
+}
+.barra-tlf-texto {
+  display: inline-block;
+  font-family: Lato, sans-serif;
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+}
+.barra-tlf-texto.barra-tlf-direccion {
+  float: right;
+}
+.barra-tlf-texto.barra-tlf-email {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.barra-tlf-texto.barra-tlf-tlf {
+  float: left;
+}
+.navbar-logo {
+  padding: 10px;
+}
+.navbar-links {
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+  float: right;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  font-family: Lato, sans-serif;
+  font-size: 30px;
+  line-height: 78px;
+}
+.navbar-links.navbar-link-sobre {
+  border-bottom-width: 2px;
+  border-bottom-color: red;
+  line-height: 78px;
+}
+.navbar-links.navbar-link-cursos {
+  border-bottom-color: #1f00ff;
+}
+.navbar-links.navbar-links-noticias {
+  border-bottom-color: #00ff29;
+}
+.cna {
+  font-family: Lato, sans-serif;
+}
+.navbar-container {
+  border-bottom: 2px solid white;
+}
+.navbar-espacio-blanco {
+  display: inline;
+  float: right;
+}
+.welcome-block-container {
+  height: 260px;
+  margin-top: 10px;
+  background-image: url('../images/barcelona.jpg');
+  background-position: 100% 50%;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+.welcome-block-statement {
+  width: 40%;
+  height: 260px;
+  background-color: #3498db;
+}
+.course-picker-tabs {
+  width: 33.12%;
+  height: 120px;
+  margin-top: 10px;
+}
+.course-picker-tabs.verano {
+  background-color: #c4cf3b;
+}
+.course-picker-tabs.regular {
+  background-color: #17b637;
+}
+.course-picker-tabs.intensivo {
+  background-color: #af0000;
+}
+.course-picker-tabs-text {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.white-box {
+  padding: 15px;
+  border: 1px solid #00d6ff;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.white-box:hover {
+  background-color: rgba(0, 153, 255, 0.28);
+  box-shadow: #0a00ff 0px 2px 22px -5px;
+}
+.grid-image {
+  display: block;
+  width: 35%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 10px solid white;
+  border-radius: 35px;
+  background-color: #4398d1;
+  box-shadow: #00c2ff 0px 0px 1px 1px;
+}
+.ventajas-header {
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.ventajas-subheader {
+  padding: 10px;
+  font-size: 18px;
+  line-height: 22px;
+  list-style-type: square;
+}
